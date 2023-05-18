@@ -1,0 +1,41 @@
+body{
+  margin: opx;
+  background: rgb(222,7, 127) url("./images/myBackground.png")
+}
+
+#wrapper{
+    min-height: 100vh;
+    background-color: #fff;
+    opacity: 0.9;
+    margin: 10px;
+}
+
+nav{
+    margin-top: -1px;
+    text-align: center;
+    padding-right: 60px;
+    border: 1px solid coral;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+ul li{
+    display: inline;
+}
+
+li{
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+#myFooter{
+    background-color: black;
+    color: beige;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    text-align: center;
+}
