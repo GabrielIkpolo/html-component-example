@@ -4,25 +4,17 @@ class Header extends HTMLElement {
         super();
     }
 
-    connectedCallback(){
+    connectedCallback() {
 
         this.innerHTML = `
         <nav>
-            <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="/about.html">
-                    <li>About</li>
-                </a>
-                <a href="/contactUs.html">
-                    <li>Contact Us</li>
-                </a>
-                <a href="/gallery">
-                    <li>Gallery</li>
-                </a>
-            </ul>
-        </nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactUs.html">ContactUs</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
         `;
     }
 }
