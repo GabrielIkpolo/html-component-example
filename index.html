@@ -8,12 +8,15 @@
     <meta name="keywords" content="personal profile, Department, database management">
     <meta name="author" content="Michael John">
     <meta name="robot" content="index,follow">
-    <title>HTML Demo</title>
-    <link rel="stylesheet" href="./ourStyle.css">
+    <title>HTML Component Demo</title>
+    <link rel="stylesheet" href="./css/ourStyle.css">
     <link rel="shortcut icon" href="./images/smallImage.png">
 
+    <!-- scripts for inserting header and footer components -->
+    <script src="./component/Header.js" async="fasle"></script>
+    <script src="./component/Footer.js" async="false"></script>
 </head>
-
+<div class="wrapper"></div>
 <body>
     <div id="wrapper">
         <nav>
@@ -24,19 +27,20 @@
                 <a href="/about.html">
                     <li>About</li>
                 </a>
-                <a href="contactUs.html">
+                <a href="/contactUs.html">
                     <li>Contact Us</li>
                 </a>
-                <a href="#">
+                <a href="/gallery.html">
                     <li>Gallery</li>
                 </a>
             </ul>
         </nav>
 
         <div id="mainContent">
-            <p > Welcome Home</p>
+            <p> Welcome Home</p>
             <div class="content"> Anonother</div>
         </div>
+
     </div>
 
     <div id="myFooter">
@@ -45,6 +49,7 @@
         </footer>
     </div>
 
+    <script src="./js/ourJavaScript.js"></script>
 </body>
 
 </html>

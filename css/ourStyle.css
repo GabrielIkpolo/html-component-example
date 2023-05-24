@@ -1,6 +1,7 @@
 body{
   margin: opx;
-  background: rgb(222,7, 127) url("./images/myBackground.png")
+  background: rgb(222,7, 127) url("../images/myBackground.png");
+
 }
 
 #wrapper{
